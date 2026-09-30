@@ -1,0 +1,1 @@
+{"name":"saas-dashboard-with-analytics","private":true,"scripts":{"setup":"npm i && npm i --prefix server && npm i --prefix client","dev":"concurrently -k \"npm run dev --prefix server\" \"npm run dev --prefix client\"","build":"npm run build --prefix client","start":"npm start --prefix server"},"devDependencies":{"concurrently":"^8.2.2"}}
